@@ -25,9 +25,9 @@ pip install tensorflow streamlit pillow matplotlib numpy
 ### 2. Run the Streamlit App
 
 From the project root:
-
+```bash
 streamlit run deploymentUI.py
-
+```
 - Upload images in JPG, JPEG, or PNG format
 - Select a model from the dropdown menu
 - View predictions and Grad-CAM heatmaps
